@@ -1,0 +1,37 @@
+.header {
+    position: relative;
+    background-color: blanchedalmond;
+    text-align: left;
+    display: flex;
+    margin: 0;
+}
+
+.list-component {
+    width: 100%;
+    background-color: blanchedalmond;
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 30px ;
+}
+
+.list-component ul {
+    list-style-type: none;
+}
+.list-component ul li {
+    margin-top: 10px;
+}
+
+.list-component .list-li {
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    padding: 8px;
+    width:300px;
+    text-align: center;
+    display: inline-block;
+}

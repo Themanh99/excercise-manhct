@@ -1,0 +1,40 @@
+.app-counter {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.link {
+    text-decoration: none;
+    color: darkcyan;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .buttons button {
+    background-color: cadetblue;
+    border-radius: 60px;
+    border-style: none;
+    text-align: center;
+    color: azure;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    height: 60px;
+  }
+
+  .label {
+    width: 150px;
+    text-align: center;
+    color: rgb(8, 179, 179);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 6rem;
+    font-weight: 600;
+  }
