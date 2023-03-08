@@ -1,0 +1,17 @@
+.album{
+    display: inline-block;
+    flex-grow: row nowrap;
+}
+.thumbnai{
+    & > img {
+        height: 200px;
+    }
+}
+.info{
+    text-align: center;
+    justify-content: center;
+}
+.name{
+    color: #567189;
+    font-weight: bold;
+}

@@ -10,10 +10,16 @@ function Home() {
 
                 <ul>
                     <li>
-                        <Link to='/search' className='list-li'>Search components</Link>
+                        <Link to='/search' className='list-li'>Search</Link>
                     </li>
                     <li>
-                        <Link to='/counter' className='list-li'>Counter components</Link>
+                        <Link to='/counter' className='list-li'>Counter</Link>
+                    </li>
+                    <li>
+                        <Link to='/todofeature' className='list-li'>TodoFeature</Link>
+                    </li>
+                    <li>
+                        <Link to='/songfeature' className='list-li'>Songfeature</Link>
                     </li>
                 </ul>
             </div>
