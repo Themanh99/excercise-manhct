@@ -1,18 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { decrement, increment, reset } from '../../Redux/counterSlice';
 import './Counter.css';
 
 function Counter() {
-    const [number, setNumber] = useState(1);
+    const number = useSelector(state => state.counter);
+    const dispatch = useDispatch();
 
-    const handleDecrease = (e) => {
-        setNumber(prev => prev - 1);
+    const handleDecrease = () => {
+        const action = decrement();
+        dispatch(action);
     }
-    const handleIncrease = (e) => {
-        setNumber(prev => prev + 1);
+    const handleIncrease = () => {
+        const action = increment();
+        dispatch(action);
     }
     const handleReset = () => {
-        setNumber(1);
+        const action = reset();
+        dispatch(action);
     }
     return (
         <div className='app-counter'>
